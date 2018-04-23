@@ -1,0 +1,2 @@
+curl http://111.231.114.151:8080/
+curl -H "Content-Type:application/json" -X POST --data '{"BPM":55}' http://111.231.114.151:8080/
