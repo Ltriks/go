@@ -20,7 +20,7 @@ func duplicate(nums []int) bool {
 	}
 	for i := 0; i < len(nums); i++ {
 		fmt.Println("nums:",nums)
-		for (nums[i] != i && nums[nums[i]] != nums[i]) {
+		for (nums[i] != i && nums[nums[i]] != nums[i]) {  // for 不是if 
 			fmt.Println("swap:",nums[i], i, nums)
 			swap(nums[i], i, nums)
 		}
